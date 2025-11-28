@@ -18,7 +18,7 @@ Ai-Singer est une application Python pour la synthèse et l'entraînement d'une 
 1. Cloner le dépôt:
 
 ```powershell
-git clone <repo-url>
+git clone [<repo-url>](https://github.com/Ax-07/AI-Singer.git)
 cd Ai-Singer
 ```
 
