@@ -1,7 +1,7 @@
 
 # Ai-Singer
 
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE) [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE) [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/) [![CI](https://github.com/Ax-07/AI-Singer/actions/workflows/ci.yml/badge.svg)](https://github.com/Ax-07/AI-Singer/actions)
 
 ## Description
 
@@ -18,7 +18,7 @@ Ai-Singer est une application Python pour la synthèse et l'entraînement d'une 
 1. Cloner le dépôt:
 
 ```powershell
-git clone [<repo-url>](https://github.com/Ax-07/AI-Singer.git)
+git clone https://github.com/Ax-07/AI-Singer.git
 cd Ai-Singer
 ```
 
