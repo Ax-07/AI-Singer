@@ -1,20 +1,17 @@
 
 # Ai-Singer
 
-
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE) [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 
 ## Description
 
 Ai-Singer est une application Python pour la synthèse et l'entraînement d'une voix chantée (projet de type « AI singer »). Le dépôt contient des utilitaires de prétraitement audio, des scripts d'entraînement pour le modèle acoustique et le vocodeur, ainsi qu'un moteur d'inférence pour générer des fichiers audio.
 
-
 ## Prérequis
 
 - Python 3.8 ou plus récent
 - Un environnement virtuel (`venv`) recommandé
 - Dépendances listées dans `requirements.txt`
-
 
 ## Installation rapide
 
@@ -37,7 +34,6 @@ python -m venv venv
 ```powershell
 pip install -r requirements.txt
 ```
-
 
 ## Utilisation (exemples)
 
@@ -77,7 +73,6 @@ python scripts/train_vocoder.py --config configs/vocoder.yml
 python scripts/infer_local.py --input "Ma phrase à chanter" --out generated/output.wav
 ```
 
-
 ## Structure du dépôt (résumé)
 
 - `app/` : code principal
@@ -89,7 +84,6 @@ python scripts/infer_local.py --input "Ma phrase à chanter" --out generated/out
 - `generated/` : sorties (audio, checkpoints)
 - `scripts/` : scripts utiles (`preprocess_audio.py`, `build_features.py`, `train_acoustic_model.py`, `train_vocoder.py`, `infer_local.py`, ...)
 - fichiers racine : `requirements.txt`, `GUIDE.md`, `ROADMAP.md`, `test_fake.py`, `test_request.py`
-
 
 ## Workflows conseillés
 
@@ -125,20 +119,16 @@ Merci pour l'intérêt ! Pour contribuer :
 
 Voir `CONTRIBUTING.md` pour plus de détails.
 
-
 ## Licence
 
 Ce projet est distribué sous licence MIT — voir le fichier `LICENSE`.
 
-
 ## Contact / Support
 
 Ouvrez une issue pour signaler un bug ou demander une fonctionnalité. Pour aide directe, mentionnez le module concerné (`app/singer_engine.py`, `scripts/*`, etc.).
-
 
 ## Remarques finales
 
 - Adaptez les chemins et arguments des scripts selon votre configuration locale.
 - Les données audio sont volumineuses — prévoir suffisamment d'espace disque et (si entraînement) un GPU.
 - Remplacez les badges avec les URLs réelles du dépôt (`<OWNER>/<REPO>`).
-
